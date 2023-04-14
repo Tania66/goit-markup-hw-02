@@ -1,0 +1,153 @@
+:root{
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font:'Raleway', sans-serif;
+    --accent-color:#404BBF;
+    --primary-text-color:#2E2F42;
+    --secondary-text-color:#434455;
+}
+
+/*COMPONENTS**********************************/
+
+ body{
+font-family: var(--primary-font);
+color: var(--primare-text-color);
+}
+
+.list{
+  list-style: none;  
+}
+
+.link{
+    text-decoration: none;
+}
+
+.logo {
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: calc(21/18);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+}
+/*COMPONENTS**********************************/
+
+
+/*HEADER************************************/
+
+.header{
+}
+
+.header-nav {
+}
+
+.menu-list {
+}
+
+.menu-item {
+}
+
+.menu-link {
+font-weight: 500;
+font-size: 16px;
+line-height: calc(24/16);
+letter-spacing: 0.02em;
+}
+
+.header-item {
+}
+.contacts {
+}
+.contacts-list {
+}
+.contacts-item {
+}
+
+
+.contacts-link {
+font-style: normal; 
+font-weight: 400;
+font-size: 16px;
+line-height: 24/16;
+letter-spacing: 0.02em;
+color: var(--secondary-text-color);
+}
+
+.contacts-link:hover,
+.contacts-link:focus{
+    color: var(--accent-color);
+}
+
+/*HEADER************************************/
+
+
+
+/*PORTFOLIO**************************************/
+
+.portfolio {
+}
+
+.filter-nav {
+}
+
+.filter-list {
+}
+
+.filter-item {
+}
+
+.filter-btn {
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: calc(24/16);
+    letter-spacing: 0.04em;    
+    color: #4D5AE5;
+}
+
+.filter-btn:hover,
+.filter-btn:focus{
+    background-color: var(--accent-color);
+    color: #FFF;
+}
+
+
+.portfolio-list {
+}
+.portfolio-item {
+}
+.portfolio-img {
+}
+
+.portfolio-title {
+font-weight: 500;
+font-size: 20px;
+line-height: calc(24/20);
+letter-spacing: 0.02em;
+}
+
+.portfolio-sub-title {
+font-weight: 400;
+font-size: 16px;
+line-height: calc(24/16);
+letter-spacing: 0.02em;
+color:var(--secondary-text-color);
+}
+
+/*PORTFOLIO**************************************/
+
+
+/*FOOTER******************************************/
+
+.footer {
+}
+
+.footer-desc {
+    font-weight: 400;
+font-size: 16px;
+line-height: calc(24/16);
+letter-spacing: 0.02em;
+color: #F4F4FD;
+}
+
+
