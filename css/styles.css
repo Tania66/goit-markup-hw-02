@@ -43,17 +43,17 @@ background-color: #FFF;
 .sub-title {
 font-weight: 400;
 font-size: 16px;
-line-height: calc(24/16);
+line-height: 1.2;
 letter-spacing: 0.02em;
-color:var(--secondary-text-color);
+color: #434455;
 }
 
 .title {
 font-weight: 500;
 font-size: 20px;
-line-height: calc(24/20);
+line-height: 1.2;
 letter-spacing: 0.02em;
-color: #2E2F42;
+color: #2e2f42;
 }
 
 /*COMPONENTS**********************************/
@@ -189,4 +189,16 @@ color: #2E2F42;
 
 .team-item{
     background-color: #FFFFFF;
+}
+/*TEAM****************************************
+****/
+
+
+/*PORTFOLIO************************************/
+
+.cards-sub-title{
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
 }
